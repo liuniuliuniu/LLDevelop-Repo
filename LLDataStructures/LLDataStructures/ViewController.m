@@ -40,6 +40,10 @@
     LLOrderStorageVC *vc = [LLOrderStorageVC new];
     [self.navigationController pushViewController:vc animated:YES];
 }
+- (IBAction)treeAction:(id)sender {
+    
+    
+}
 
 
 - (void)viewDidLoad {

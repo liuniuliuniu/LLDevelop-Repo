@@ -84,6 +84,23 @@
     NSLog(@"index = %d",index);
 }
 
+
+/**
+ 插入排序  前提是该数组已经是一个有序表
+ */
+- (void)insertSort {
+    int i,j;
+    for ( i = 2; i <= self.arrM.count - 1; i++) {
+        if ([self.arrM[i] intValue] < [self.arrM[i-1] intValue]) { // 需要将self.arrM[i-1]插入到有序表中
+            self.arrM[0] = self.arrM[i];  // 设置哨兵
+            for ( j = i - 1; [self.arrM[j] intValue] > [self.arrM[0] intValue]; j--) {
+                self.arrM[j+1] = self.arrM[j]; // 记录后移
+            }
+            self.arrM[j+1] = self.arrM[0]; // 插入到正确的位置
+        }
+    }
+}
+
 /**
  选择排序
  */

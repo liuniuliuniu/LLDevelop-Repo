@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723C8A7A1FFD24CD0098BF46 /* LLTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 723C8A791FFD24CD0098BF46 /* LLTreeViewController.m */; };
+		723C8A7D1FFD24E70098BF46 /* LLTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 723C8A7B1FFD24E70098BF46 /* LLTree.c */; };
+		725673BD1FFE78C000E6BC0A /* LLStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 725673BB1FFE78C000E6BC0A /* LLStack.c */; };
 		9645B8E21FEB8DEF00DCC0D2 /* LLAlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9645B8E11FEB8DEF00DCC0D2 /* LLAlgorithmViewController.m */; };
 		9650CB771FF721A200B81A97 /* LLOrderNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 9650CB751FF721A200B81A97 /* LLOrderNode.c */; };
 		9650CB7A1FF7234A00B81A97 /* LLOrderStorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9650CB791FF7234A00B81A97 /* LLOrderStorageVC.m */; };
@@ -43,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		723C8A781FFD24CD0098BF46 /* LLTreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTreeViewController.h; sourceTree = "<group>"; };
+		723C8A791FFD24CD0098BF46 /* LLTreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTreeViewController.m; sourceTree = "<group>"; };
+		723C8A7B1FFD24E70098BF46 /* LLTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LLTree.c; sourceTree = "<group>"; };
+		723C8A7C1FFD24E70098BF46 /* LLTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTree.h; sourceTree = "<group>"; };
+		725673BB1FFE78C000E6BC0A /* LLStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LLStack.c; sourceTree = "<group>"; };
+		725673BC1FFE78C000E6BC0A /* LLStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLStack.h; sourceTree = "<group>"; };
 		9645B8E01FEB8DEF00DCC0D2 /* LLAlgorithmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAlgorithmViewController.h; sourceTree = "<group>"; };
 		9645B8E11FEB8DEF00DCC0D2 /* LLAlgorithmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAlgorithmViewController.m; sourceTree = "<group>"; };
 		9650CB751FF721A200B81A97 /* LLOrderNode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LLOrderNode.c; sourceTree = "<group>"; };
@@ -102,6 +111,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723C8A721FFD24190098BF46 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				9645B8E01FEB8DEF00DCC0D2 /* LLAlgorithmViewController.h */,
+				9645B8E11FEB8DEF00DCC0D2 /* LLAlgorithmViewController.m */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		723C8A731FFD24340098BF46 /* DoubleLink */ = {
+			isa = PBXGroup;
+			children = (
+				9650CB7E1FF7430500B81A97 /* LLDoubleLinkedViewController.h */,
+				9650CB7F1FF7430500B81A97 /* LLDoubleLinkedViewController.m */,
+				9650CB821FF7434A00B81A97 /* LLDoubleLinkNode.h */,
+				9650CB811FF7434A00B81A97 /* LLDoubleLinkNode.c */,
+			);
+			path = DoubleLink;
+			sourceTree = "<group>";
+		};
+		723C8A741FFD244B0098BF46 /* link */ = {
+			isa = PBXGroup;
+			children = (
+				9650CB7B1FF728AA00B81A97 /* LLLinkedStorageVC.h */,
+				9650CB7C1FF728AA00B81A97 /* LLLinkedStorageVC.m */,
+				96DFA8431FE9FE600087CA12 /* LLLinkNode.h */,
+				96DFA8441FE9FE740087CA12 /* LLLinkNode.c */,
+			);
+			path = link;
+			sourceTree = "<group>";
+		};
+		723C8A751FFD24760098BF46 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				9650CB781FF7234A00B81A97 /* LLOrderStorageVC.h */,
+				9650CB791FF7234A00B81A97 /* LLOrderStorageVC.m */,
+				9650CB761FF721A200B81A97 /* LLOrderNode.h */,
+				9650CB751FF721A200B81A97 /* LLOrderNode.c */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		723C8A761FFD24920098BF46 /* QueueAndStack */ = {
+			isa = PBXGroup;
+			children = (
+				9650CB851FF8F02000B81A97 /* LLQueue.h */,
+				9650CB841FF8F02000B81A97 /* LLQueue.c */,
+				725673BC1FFE78C000E6BC0A /* LLStack.h */,
+				725673BB1FFE78C000E6BC0A /* LLStack.c */,
+			);
+			path = QueueAndStack;
+			sourceTree = "<group>";
+		};
+		723C8A771FFD24AD0098BF46 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				723C8A781FFD24CD0098BF46 /* LLTreeViewController.h */,
+				723C8A791FFD24CD0098BF46 /* LLTreeViewController.m */,
+				723C8A7C1FFD24E70098BF46 /* LLTree.h */,
+				723C8A7B1FFD24E70098BF46 /* LLTree.c */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
 		96DFA8051FE9F9C60087CA12 = {
 			isa = PBXGroup;
 			children = (
@@ -129,22 +202,12 @@
 				96DFA8121FE9F9C60087CA12 /* AppDelegate.m */,
 				96DFA8141FE9F9C60087CA12 /* ViewController.h */,
 				96DFA8151FE9F9C60087CA12 /* ViewController.m */,
-				9645B8E01FEB8DEF00DCC0D2 /* LLAlgorithmViewController.h */,
-				9645B8E11FEB8DEF00DCC0D2 /* LLAlgorithmViewController.m */,
-				9650CB7E1FF7430500B81A97 /* LLDoubleLinkedViewController.h */,
-				9650CB7F1FF7430500B81A97 /* LLDoubleLinkedViewController.m */,
-				9650CB821FF7434A00B81A97 /* LLDoubleLinkNode.h */,
-				9650CB811FF7434A00B81A97 /* LLDoubleLinkNode.c */,
-				9650CB7B1FF728AA00B81A97 /* LLLinkedStorageVC.h */,
-				9650CB7C1FF728AA00B81A97 /* LLLinkedStorageVC.m */,
-				96DFA8431FE9FE600087CA12 /* LLLinkNode.h */,
-				96DFA8441FE9FE740087CA12 /* LLLinkNode.c */,
-				9650CB781FF7234A00B81A97 /* LLOrderStorageVC.h */,
-				9650CB791FF7234A00B81A97 /* LLOrderStorageVC.m */,
-				9650CB761FF721A200B81A97 /* LLOrderNode.h */,
-				9650CB751FF721A200B81A97 /* LLOrderNode.c */,
-				9650CB851FF8F02000B81A97 /* LLQueue.h */,
-				9650CB841FF8F02000B81A97 /* LLQueue.c */,
+				723C8A721FFD24190098BF46 /* Algorithm */,
+				723C8A731FFD24340098BF46 /* DoubleLink */,
+				723C8A741FFD244B0098BF46 /* link */,
+				723C8A751FFD24760098BF46 /* Order */,
+				723C8A761FFD24920098BF46 /* QueueAndStack */,
+				723C8A771FFD24AD0098BF46 /* Tree */,
 				96DFA8171FE9F9C60087CA12 /* Main.storyboard */,
 				96DFA81A1FE9F9C60087CA12 /* Assets.xcassets */,
 				96DFA81C1FE9F9C60087CA12 /* LaunchScreen.storyboard */,
@@ -307,12 +370,15 @@
 			files = (
 				9650CB7A1FF7234A00B81A97 /* LLOrderStorageVC.m in Sources */,
 				96DFA8161FE9F9C60087CA12 /* ViewController.m in Sources */,
+				725673BD1FFE78C000E6BC0A /* LLStack.c in Sources */,
 				96DFA8451FE9FE740087CA12 /* LLLinkNode.c in Sources */,
 				9650CB7D1FF728AA00B81A97 /* LLLinkedStorageVC.m in Sources */,
 				9650CB801FF7430500B81A97 /* LLDoubleLinkedViewController.m in Sources */,
 				9650CB771FF721A200B81A97 /* LLOrderNode.c in Sources */,
 				9650CB861FF8F02000B81A97 /* LLQueue.c in Sources */,
 				96DFA8211FE9F9C60087CA12 /* main.m in Sources */,
+				723C8A7D1FFD24E70098BF46 /* LLTree.c in Sources */,
+				723C8A7A1FFD24CD0098BF46 /* LLTreeViewController.m in Sources */,
 				9645B8E21FEB8DEF00DCC0D2 /* LLAlgorithmViewController.m in Sources */,
 				9650CB831FF7434A00B81A97 /* LLDoubleLinkNode.c in Sources */,
 				96DFA8131FE9F9C60087CA12 /* AppDelegate.m in Sources */,

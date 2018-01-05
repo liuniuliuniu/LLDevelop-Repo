@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-typedef int QElemtType;
+typedef int QElemtType; 
 
 // 节点的节点结构
 typedef struct QNode {
