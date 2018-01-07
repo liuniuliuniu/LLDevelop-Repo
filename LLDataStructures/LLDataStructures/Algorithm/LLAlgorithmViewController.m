@@ -160,10 +160,27 @@
     }
 }
 
-
-
-
-
+/**
+ 求一个集合的子集 位运算
+ */
+- (NSArray *)subsetOfSet:(NSSet *)set {
+    NSMutableArray *mutableArray = [NSMutableArray new];
+    NSArray *arr = [set allObjects];
+    for (int i = 0; i<pow(2, arr.count); i++) {
+        int j = i;
+        int n = 0;
+        NSMutableString *str = [NSMutableString new];
+        while (j != 0) {
+            if ((j&1) == 1) {
+                [str appendString:arr[n]];
+            }
+            j = j>>1;
+            n++;
+        }
+        [mutableArray addObject:str];
+    }
+    return mutableArray.copy;
+}
 
 
 
