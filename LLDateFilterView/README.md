@@ -8,3 +8,4 @@
 - 3 可快速选择今天，昨天，本周，本月时间段
 - 4 可快速重置时间
 
+![LLDateFilterView](https://github.com/liuniuliuniu/LLDevelop-Repo/blob/master/LLDateFilterView/LLDateFilterView.gif)
