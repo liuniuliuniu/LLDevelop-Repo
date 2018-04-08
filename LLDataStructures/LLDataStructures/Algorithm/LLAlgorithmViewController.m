@@ -24,15 +24,43 @@
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+//   BOOL res = [self isValidIP:@"0.0.0.0"];
+    
 //    [self bubbleSort];
 //    [self quickSortWithArrM:self.arrM left:0 right:(int)self.arrM.count - 1];
 //    [self selectSort];
 //    [self binarySearch:1];
 //    [self isPrime];
     
-    [self fibonacciWithNum:40];
+//    [self fibonacciWithNum:40];
     
+}
 
+
+/**
+ 判断ip是否合法
+ */
+- (BOOL)isValidIP:(NSString *)ipStr {
+    if (nil == ipStr) {
+        return NO;
+    }    
+    NSArray *ipArray = [ipStr componentsSeparatedByString:@"."];
+    if (ipArray.count == 4) {
+        
+        for (int i = 0; i < ipArray.count;i++ ) {
+            int ipnumber = [ipArray[i] intValue];
+            if (!(ipnumber>=0 && ipnumber<=255)) {
+                return NO;
+            }
+            // 剔除第一位不能为0 的情况
+            if (i == 0 && ipnumber <= 0 ) {
+                return NO;
+            }
+        }
+        return YES;
+    }
+    return NO;
 }
 
 /**
@@ -181,6 +209,7 @@
     }
     return mutableArray.copy;
 }
+
 
 
 
