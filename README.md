@@ -21,67 +21,67 @@
 - [《Objective-C 高级编程》干货三部曲（一）：引用计数篇](https://www.jianshu.com/p/9172ff9c8b5c)
 
 - [《Objective-C 高级编程》干货三部曲（二）：Blocks篇](https://www.jianshu.com/p/f3ee592e57f5)
-
+ 
 - [《Effective Objective-C》重读校验自己的知识体系](https://www.jianshu.com/p/17346f810af4)
-- 
-##### 内存
 
-##### 网络
+##### 1.2 内存
 
-##### 存储
+##### 1.3 网络
 
-##### 内存
+##### 1.4 存储
 
-##### 渲染
+##### 1.5 内存
 
-##### 线程
+##### 1.6 渲染
+
+##### 1.7  线程
 - [《Objective-C 高级编程》干货三部曲（三）：GCD篇](https://www.jianshu.com/p/7e8739ca0dbc)
 
-##### 动画
+##### 1.8 动画
 - [炫酷转场动画](https://www.jianshu.com/p/fbfbcb75dc4b)
 - [iOS 视图控制器转场详解：从入门到精通](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)
 
-#### 调试
+##### 1.9 调试
 
 ##### 优秀的开源框架分析
 
 ## 二 需求
 
-##### 浏览器内核
+##### 2.1 浏览器内核
 
-##### 排版引擎
+##### 2.2 排版引擎
 
-##### 图表引擎
+##### 2.3 图表引擎
 
-##### 动态化
+##### 2.4 动态化
 [iOS动态库、静态库及使用场景、方式](https://www.jianshu.com/p/4e0fd0214152)
 
 
 ## 三 质量
 
-##### 性能优化
+##### 3.1 性能优化
 - [微信读书iOS性能优化总结](https://wereadteam.github.io/2016/05/03/WeRead-Performance/)
 
-##### 代码质量
+##### 3.2 代码质量
 - [iOS 中常见 Crash 总结](https://mp.weixin.qq.com/s/4mxo12CdxjTrPnIH7wfbsQ)
 
-##### 监控体系
+##### 3.3 监控体系
 
-##### 安全
+##### 3.4 安全
 - [iOS App 签名的原理](http://blog.cnbang.net/tech/3386/)
 
-##### 测试
+##### 3.5 测试
 
 ## 四 效率
 
-##### 架构
+##### 4.1 架构
 
-##### 持续集成
+##### 4.2 持续集成
 
-##### 跨平台
+##### 4.3 跨平台
 
 ## 五 疑难杂症
-[iOS 13.2 为何杀 App 这么频繁以及什么是 Wakeup](https://imtx.me/archives/2809.html?nsukey=8Sd0QK3IbrZuNIjpLbeLgEb%2FQmm7Gi7ZuR3xnFf0fAkdNAqHN6Wpf35hDgrHG6GntpekYJLy70ZZEDjcuZ8Da28x%2Fs0FiR4t4ttQp6Sx2Wc6WOSlSLlNV6JZFJQ18RLc%2F9DIMNNJfGm00UrIvPfTx3seI1Igm8QM%2BstgftU9LUQr6jMY9MO5ofxgPYSnc7tJ)
+- [iOS 13.2 为何杀 App 这么频繁以及什么是 Wakeup](https://imtx.me/archives/2809.html?nsukey=8Sd0QK3IbrZuNIjpLbeLgEb%2FQmm7Gi7ZuR3xnFf0fAkdNAqHN6Wpf35hDgrHG6GntpekYJLy70ZZEDjcuZ8Da28x%2Fs0FiR4t4ttQp6Sx2Wc6WOSlSLlNV6JZFJQ18RLc%2F9DIMNNJfGm00UrIvPfTx3seI1Igm8QM%2BstgftU9LUQr6jMY9MO5ofxgPYSnc7tJ)
 
 
 ## 六 面试
