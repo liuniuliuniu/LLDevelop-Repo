@@ -10,6 +10,7 @@
 		723C8A7A1FFD24CD0098BF46 /* LLTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 723C8A791FFD24CD0098BF46 /* LLTreeViewController.m */; };
 		723C8A7D1FFD24E70098BF46 /* LLTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 723C8A7B1FFD24E70098BF46 /* LLTree.c */; };
 		725673BD1FFE78C000E6BC0A /* LLStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 725673BB1FFE78C000E6BC0A /* LLStack.c */; };
+		8C4AE35323EE514E0023115F /* AHa-Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C4AE35223EE514E0023115F /* AHa-Sort.c */; };
 		9645B8E21FEB8DEF00DCC0D2 /* LLAlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9645B8E11FEB8DEF00DCC0D2 /* LLAlgorithmViewController.m */; };
 		9650CB771FF721A200B81A97 /* LLOrderNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 9650CB751FF721A200B81A97 /* LLOrderNode.c */; };
 		9650CB7A1FF7234A00B81A97 /* LLOrderStorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9650CB791FF7234A00B81A97 /* LLOrderStorageVC.m */; };
@@ -52,6 +53,8 @@
 		723C8A7C1FFD24E70098BF46 /* LLTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTree.h; sourceTree = "<group>"; };
 		725673BB1FFE78C000E6BC0A /* LLStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LLStack.c; sourceTree = "<group>"; };
 		725673BC1FFE78C000E6BC0A /* LLStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLStack.h; sourceTree = "<group>"; };
+		8C4AE35123EE514E0023115F /* AHa-Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHa-Sort.h"; sourceTree = "<group>"; };
+		8C4AE35223EE514E0023115F /* AHa-Sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "AHa-Sort.c"; sourceTree = "<group>"; };
 		9645B8E01FEB8DEF00DCC0D2 /* LLAlgorithmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAlgorithmViewController.h; sourceTree = "<group>"; };
 		9645B8E11FEB8DEF00DCC0D2 /* LLAlgorithmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAlgorithmViewController.m; sourceTree = "<group>"; };
 		9650CB751FF721A200B81A97 /* LLOrderNode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LLOrderNode.c; sourceTree = "<group>"; };
@@ -175,6 +178,15 @@
 			path = Tree;
 			sourceTree = "<group>";
 		};
+		8C4AE35023EE4FED0023115F /* AHa!Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				8C4AE35123EE514E0023115F /* AHa-Sort.h */,
+				8C4AE35223EE514E0023115F /* AHa-Sort.c */,
+			);
+			path = "AHa!Algorithms";
+			sourceTree = "<group>";
+		};
 		96DFA8051FE9F9C60087CA12 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +214,7 @@
 				96DFA8121FE9F9C60087CA12 /* AppDelegate.m */,
 				96DFA8141FE9F9C60087CA12 /* ViewController.h */,
 				96DFA8151FE9F9C60087CA12 /* ViewController.m */,
+				8C4AE35023EE4FED0023115F /* AHa!Algorithms */,
 				723C8A721FFD24190098BF46 /* Algorithm */,
 				723C8A731FFD24340098BF46 /* DoubleLink */,
 				723C8A741FFD244B0098BF46 /* link */,
@@ -370,6 +383,7 @@
 			files = (
 				9650CB7A1FF7234A00B81A97 /* LLOrderStorageVC.m in Sources */,
 				96DFA8161FE9F9C60087CA12 /* ViewController.m in Sources */,
+				8C4AE35323EE514E0023115F /* AHa-Sort.c in Sources */,
 				725673BD1FFE78C000E6BC0A /* LLStack.c in Sources */,
 				96DFA8451FE9FE740087CA12 /* LLLinkNode.c in Sources */,
 				9650CB7D1FF728AA00B81A97 /* LLLinkedStorageVC.m in Sources */,
