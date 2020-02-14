@@ -16,13 +16,15 @@
 
 ### 一 基础
 
-##### 1.1 语言
+##### 1 语言
 
 - [《Objective-C 高级编程》干货三部曲（一）：引用计数篇](https://www.jianshu.com/p/9172ff9c8b5c)
 
 - [《Objective-C 高级编程》干货三部曲（二）：Blocks篇](https://www.jianshu.com/p/f3ee592e57f5)
  
 - [《Effective Objective-C》重读校验自己的知识体系](https://www.jianshu.com/p/17346f810af4)
+
+- [Objective-C & Swift 最轻量级 Hook 方案](https://mp.weixin.qq.com/s/wxigL1Clem1dR8Nkt8LLMw)
 
 ##### 1.2 内存
 
@@ -43,7 +45,17 @@
 
 ##### 1.9 调试
 
-##### 优秀的开源框架分析
+
+##### 1.10优秀的开源框架分析
+
+[开源 | Objective-C & Swift 最轻量级 Hook 方案](https://mp.weixin.qq.com/s/wxigL1Clem1dR8Nkt8LLMw)
+> - 1、只用一个 block 即可对任意一个实例的任意方法实现 hook 操作；
+- 2、可以对任意普通实例甚至任意类进行 hook 操作，无论这个实例或者类是你自己生成的还是第三方提供的；
+- 3、可以随时添加或去除者任意 hook，易于对 hook 进行管理
+
+
+[MJRefresh源码解析](https://www.jianshu.com/p/89ca6437c5e9)
+
 
 ## 二 需求
 
