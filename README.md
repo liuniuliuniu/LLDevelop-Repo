@@ -26,10 +26,16 @@
 
 - [Objective-C & Swift 最轻量级 Hook 方案](https://mp.weixin.qq.com/s/wxigL1Clem1dR8Nkt8LLMw)
 
+- [WKWebView 几个不常用的特性](https://mp.weixin.qq.com/s?__biz=MzA5NzMwODI0MA==&mid=2647765984&idx=1&sn=a1f4b9b675e31a358a8c93f74c1c4bbb&chksm=8887c8dfbff041c94cd05098f8b681cb5b07671b8f9b1ba32a67440a3ee698532606596525f2&scene=38#wechat_redirect)
+
+- [iOS App 后台保活](https://mp.weixin.qq.com/s?__biz=MzA5NzMwODI0MA==&mid=2647765919&idx=2&sn=eb61e160c259a7656e8bde5ce6171e60&chksm=8887c8a0bff041b60554ae29be7b35b98b62a55ab92b0619f7133f9a4d9a2e4227a1c6ae4e7a&scene=38#wechat_redirect)
+
+
 ##### 1.2 内存
 - [雷达图绘制引发内存的思考](https://www.jianshu.com/p/c28881175173)
 
 ##### 1.3 网络
+
 
 ##### 1.4 存储
 
@@ -55,7 +61,9 @@
 - 3、可以随时添加或去除者任意 hook，易于对 hook 进行管理
 
 
-[MJRefresh源码解析](https://www.jianshu.com/p/89ca6437c5e9)
+- [MJRefresh源码解析](https://www.jianshu.com/p/89ca6437c5e9)
+
+- [SDWebImage源码解析](https://www.jianshu.com/p/93696717b4a3)
 
 
 ## 二 需求
@@ -74,6 +82,7 @@
 
 ##### 3.1 性能优化
 - [微信读书iOS性能优化总结](https://wereadteam.github.io/2016/05/03/WeRead-Performance/)
+- [静态拦截iOS对象方法调用的简易实现](https://mp.weixin.qq.com/s?__biz=MzA5NzMwODI0MA==&mid=2647765920&idx=2&sn=873b43d38637659bc72d87a63a00197e&chksm=8887c89fbff04189bd9b50298d4ed8f95b49939ec7c96885eeab21b3c60b15bb4aa220d1c1ac&scene=38#wechat_redirect)
 
 ##### 3.2 代码质量
 - [iOS 中常见 Crash 总结](https://mp.weixin.qq.com/s/4mxo12CdxjTrPnIH7wfbsQ)
@@ -92,6 +101,9 @@
 ##### 4.2 持续集成
 
 ##### 4.3 跨平台
+
+- [Flutter 入门路线图](https://mp.weixin.qq.com/s?__biz=MzA5NzMwODI0MA==&mid=2647765922&idx=1&sn=2ca901395511df314683e243042f2ba7&chksm=8887c89dbff0418b0f2a8081ce477b72c76f80d584d1c60c86bf822ba6045bcf088b28f5ac30&scene=38#wechat_redirect)
+
 
 ## 五 疑难杂症
 - [iOS 13.2 为何杀 App 这么频繁以及什么是 Wakeup](https://imtx.me/archives/2809.html?nsukey=8Sd0QK3IbrZuNIjpLbeLgEb%2FQmm7Gi7ZuR3xnFf0fAkdNAqHN6Wpf35hDgrHG6GntpekYJLy70ZZEDjcuZ8Da28x%2Fs0FiR4t4ttQp6Sx2Wc6WOSlSLlNV6JZFJQ18RLc%2F9DIMNNJfGm00UrIvPfTx3seI1Igm8QM%2BstgftU9LUQr6jMY9MO5ofxgPYSnc7tJ)
