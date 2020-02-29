@@ -52,7 +52,6 @@
 
 ##### 1.9 调试
 
-
 ##### 1.10优秀的开源框架分析
 
 [开源 | Objective-C & Swift 最轻量级 Hook 方案](https://mp.weixin.qq.com/s/wxigL1Clem1dR8Nkt8LLMw)
@@ -65,6 +64,7 @@
 
 - [SDWebImage源码解析](https://www.jianshu.com/p/93696717b4a3)
 
+- [优秀开源库源码解析系列](https://github.com/huang303513/SourceCodeResearchAndExploration)
 
 ## 二 需求
 
@@ -112,6 +112,7 @@
 ## 六 面试
 - [如何面试iOS工程师(from bang)](http://blog.cnbang.net/internet/3245/)
 - [搞iOS的，面试官问Hash干嘛？原因远比我下面要介绍的多](http://www.cocoachina.com/cms/wap.php?action=article&id=26391)
+- [一套高效的iOS面试题（修正版）✨](https://mp.weixin.qq.com/s/ireQw6pVRGFKyCm8GvKHUg)
 
 
 ## 七 优秀的blog
