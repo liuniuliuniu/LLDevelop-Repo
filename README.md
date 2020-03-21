@@ -21,6 +21,8 @@
 - [《Objective-C 高级编程》干货三部曲（一）：引用计数篇](https://www.jianshu.com/p/9172ff9c8b5c)
 
 - [《Objective-C 高级编程》干货三部曲（二）：Blocks篇](https://www.jianshu.com/p/f3ee592e57f5)
+
+- [运行时Hook所有Block方法调用的技术实现](https://juejin.im/post/5ca0ca6e51882567e32fc44b)
  
 - [《Effective Objective-C》重读校验自己的知识体系](https://www.jianshu.com/p/17346f810af4)
 
